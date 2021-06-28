@@ -5,23 +5,23 @@ public class TumpukanApp {
     public static void main(String[] args){
         Tumpukan tumpukan=new Tumpukan(10);
         tumpukan.push(50);
-        tumpukan.baca();
+        tumpukan.peek();
         System.out.println(" ");
         tumpukan.push(100);
-        tumpukan.baca();
+        tumpukan.peek();
         System.out.println(" ");
         tumpukan.pop();
-        tumpukan.baca();
+        tumpukan.peek();
         System.out.println(" ");
         tumpukan.push(60);
-        tumpukan.baca();
+        tumpukan.peek();
         System.out.println(" ");
         tumpukan.push(80);
-        tumpukan.baca();
+        tumpukan.peek();
         long nilai2=tumpukan.pop();
         
         System.out.println(" ");
-        tumpukan.baca();
+        tumpukan.peek();
         System.out.println(" ");
         long nilai3=tumpukan.peek();
         System.out.println("nilai top  = " +nilai3);
